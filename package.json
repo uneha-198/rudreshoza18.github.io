@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudreshoza18/rudreshoza18.github.io.git"
+  },
+  "author": "Rudresh oza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudreshoza18/rudreshoza18.github.io/issues"
+  },
+  "homepage": "https://github.com/rudreshoza18/rudreshoza18.github.io#readme"
+}
