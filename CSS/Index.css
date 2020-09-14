@@ -1,0 +1,22 @@
+.bodybg{
+    background-color:lightgrey;
+    
+}
+.imgclass{
+    width: 70px;
+    height: 70px;
+    border-radius: 70%;
+}
+
+@media screen and (min-width:480px){
+    .bodybg{
+        background-color: lightblue;
+    }
+}
+
+
+@media screen and (min-width:992px){
+    .bodybg{
+        background-color: lightcoral;
+    }
+}
