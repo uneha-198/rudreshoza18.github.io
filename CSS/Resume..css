@@ -24,6 +24,7 @@
 .col-sm{
     width: 100%;
     padding: 10px;
+    text-align: center;
     
 }
 .resumea{
@@ -66,7 +67,11 @@
 }
 
 
-
+.resumeframe{
+    width: 100%;
+    height: 1000px;
+    
+}
 
 
 @media screen and (max-width:480px){
@@ -78,7 +83,18 @@
 
 
 /* @media screen and (min-width:992px){
+
     .bodybg{
         background-color: lightgrey;
     }
 } */
+
+.resumesrc{
+    background-image: url('../Assest/MyModfiedResume.pdf');
+    width: 100%;
+    height: 1000px;
+}
+embed{
+    overflow-y: hidden;
+    overflow: hidden;
+}
