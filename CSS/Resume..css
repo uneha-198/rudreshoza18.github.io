@@ -49,6 +49,10 @@
     font-weight: 600px;
 
 }
+iframe{
+    overflow: hidden;
+    
+}
 
 
 
