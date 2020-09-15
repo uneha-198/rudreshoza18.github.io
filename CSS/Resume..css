@@ -1,5 +1,5 @@
 .bodybg{
-    background-color: #839192;
+    background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4,#C7CDCD);
     ;
     
 }
@@ -38,9 +38,9 @@
 }
 .resumebtn{
     transition: 0.8s;
-    border-radius: 20px;
+    border-radius: 100px 100px 100px 100px;
     transition: 0.8s;
-    background-color:#B2BABB;
+    background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4,#C7CDCD);
     width: 300px;
     height: 50px;
     color:#212F3D;
@@ -57,10 +57,11 @@
     text-transform: uppercase;
     letter-spacing: 3px;
     opacity: 1;
-    background-color: #212F3D;
+    
     text-decoration: none;
     box-shadow: 2px 2px black;
-    color:#B2BABB;
+    color:#212F3D;
+    background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4);
 
     font-weight: 900px;
 
@@ -73,13 +74,13 @@
     
 }
 
-
+/* 
 @media screen and (max-width:480px){
     .bodybg{
         background-color: lightgray;
 
     }
-}
+} */
 
 
 /* @media screen and (min-width:992px){
