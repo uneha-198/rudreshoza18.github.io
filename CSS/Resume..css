@@ -1,6 +1,6 @@
 .bodybg{
     background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4,#C7CDCD);
-    ;
+    
     
 }
 .imgclass{
@@ -44,14 +44,15 @@
     width: 300px;
     height: 50px;
     color:#212F3D;
-    text-align: center;
+    
     text-transform: uppercase;
     margin-bottom: 10px;
-    opacity: 0.7;
+    opacity: 0.5;
     letter-spacing: 2.5px;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
+    padding: 10px;
 }
 .resumebtn:hover{
     text-transform: uppercase;
@@ -94,8 +95,4 @@
     background-image: url('../Assest/MyModfiedResume.pdf');
     width: 100%;
     height: 1000px;
-}
-embed{
-    overflow-y: hidden;
-    overflow: hidden;
 }

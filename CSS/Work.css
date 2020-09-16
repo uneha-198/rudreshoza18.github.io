@@ -1,5 +1,5 @@
 .bodybg{
-    background-color:lightgrey;
+    background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4,#C7CDCD);
     
 }
 .imgclass{
@@ -8,15 +8,42 @@
     border-radius: 70%;
 }
 
+
+
+.class{
+    background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4,#C7CDCD);
+    opacity: 0.7;
+}
+.btn{
+    
+    color: #2F3030 ;
+    opacity: 0.7;
+    background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4);
+    transition: 0.4s;
+    border: 3px #1E1F1F solid;
+    font-weight: bolder;
+}
+.btn:hover{
+    transition: 1.5s;
+    opacity: 1;
+    color: black;
+    border: 3px #1E1F1F solid;
+
+    background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4,#C7CDCD);
+}
+.card-title{
+    letter-spacing: 1px;
+    
+}
+/* 
 @media screen and (min-width:480px){
     .bodybg{
         background-color: lightblue;
     }
-}
-
-
+} */
+/* 
 @media screen and (min-width:992px){
     .bodybg{
         background-color: lightcoral;
     }
-}
+} */
