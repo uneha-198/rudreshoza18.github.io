@@ -16,10 +16,12 @@
 .myname {
   margin: auto;
   padding: 10px;
-  opacity: 0.6;
+  opacity: 0.8;
   font-size: 3em;
   letter-spacing: 5px;
   transition: 0.1s;
+  font-family: cursive;
+  font-weight: 600;
 }
 .myname:hover {
   letter-spacing: 6px;
@@ -29,6 +31,7 @@
 .socialcss {
   text-align: center;
   letter-spacing: 3px;
+  font-family: cursive;
 }
 .socialcss:hover {
   transition: 2s;
@@ -45,8 +48,12 @@ a:hover {
   color: black;
 }
 .copyrights {
+    font-family: cursive;
   letter-spacing: 2px;
   text-align: center;
+}
+header{
+    font-family: cursive;
 }
 .copyname {
   padding: 30px;
