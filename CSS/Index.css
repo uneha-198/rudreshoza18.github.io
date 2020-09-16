@@ -21,13 +21,16 @@
   letter-spacing: 5px;
   transition: 0.1s;
   font-family: cursive;
-  
+  font-weight: 600;
 }
 .myname:hover {
   letter-spacing: 6px;
   opacity: 1;
   transition: 2s;
+  text-shadow: 1px 2px  black;
+  
 }
+
 .socialcss {
   text-align: center;
   letter-spacing: 3px;
