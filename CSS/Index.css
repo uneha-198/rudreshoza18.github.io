@@ -5,40 +5,45 @@
 }
 .namecont {
   text-align: center;
-
+  
   height: 80ex;
   width: 100%;
-  opacity: 0.6;
+  opacity: 1;
   padding-top: 100px;
   background-image: linear-gradient(#09ffc0, #c9f2f1, #a5faf9, #87f8f6);
 }
 
 .myname {
+    
   margin: auto;
   padding: 10px;
-opacity: 0.6;
+  opacity: 0.6;
   font-size: 3em;
   letter-spacing: 5px;
-  transition: 3s;
+  transition: 0.1s;
 }
-.myname:hover{
-    opacity: 1;
-    transition: 2s;
+.myname:hover {
+    letter-spacing: 6px;
+  opacity: 1;
+  transition: 2s;
 }
 .socialcss {
   text-align: center;
   letter-spacing: 3px;
-  
-  
+}
+.socialcss:hover{
+    transition: 2s;
+    opacity: 2;
+    letter-spacing: 3px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
-a:hover{
-    text-decoration: underline;
-    color: black;
+a:hover {
+  text-decoration: underline;
+  color: black;
 }
 .copyrights {
   letter-spacing: 2px;
@@ -46,8 +51,9 @@ a:hover{
 }
 .copyname {
   padding: 30px;
-  background-image: linear-gradient(#c9f2f1,#c7f5f5, #ddf9f8,#E3F7F5);
+  background-image: linear-gradient(#87f8f6,#c9f2f1, #c7f5f5, #ddf9f8, #e3f7f5);
 }
+
 
 /* @media screen and (min-width:480px){
     .bodybg{
