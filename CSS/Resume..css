@@ -39,7 +39,7 @@
 .resumebtn{
     transition: 0.8s;
     border-radius: 100px 100px 100px 100px;
-    transition: 0.8s;
+    border: 3px #525858  solid;
     background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4,#C7CDCD);
     width: 300px;
     height: 50px;
