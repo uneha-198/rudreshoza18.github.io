@@ -16,9 +16,14 @@
 .myname {
   margin: auto;
   padding: 10px;
-
+opacity: 0.6;
   font-size: 3em;
   letter-spacing: 5px;
+  transition: 3s;
+}
+.myname:hover{
+    opacity: 1;
+    transition: 2s;
 }
 .socialcss {
   text-align: center;
