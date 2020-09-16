@@ -56,13 +56,12 @@ header{
     font-family: cursive;
 }
 .copyname {
+    height: 11em;
   padding: 30px;
   background-image: linear-gradient(
     #87f8f6,
-    #c9f2f1,
-    #c7f5f5,
-    #ddf9f8,
-    #e3f7f5
+    #87f8f6,
+    #87f8f6
   );
 }
 
