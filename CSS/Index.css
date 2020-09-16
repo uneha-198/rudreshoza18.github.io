@@ -1,14 +1,27 @@
-.bodybg{
-    background-color:lightgrey;
-    
+.imgclass {
+  width: 70px;
+  height: 70px;
+  border-radius: 70%;
 }
-.imgclass{
-    width: 70px;
-    height: 70px;
-    border-radius: 70%;
+.container-fluid {
+  text-align: center;
+
+  height: 80ex;
+  width: 100%;
+  opacity: 0.6;
+  padding-top: 100px;
+  background-image: linear-gradient(#c9f2f1, #a5faf9, #87f8f6, #09ffc0);
 }
 
-@media screen and (min-width:480px){
+.myname{
+    margin:auto;
+    padding: 10px;
+    
+    font-size: 3em;
+    letter-spacing: 5px;
+}
+
+/* @media screen and (min-width:480px){
     .bodybg{
         background-color: lightblue;
     }
@@ -19,4 +32,4 @@
     .bodybg{
         background-color: lightcoral;
     }
-}
+} */
