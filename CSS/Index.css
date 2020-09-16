@@ -3,22 +3,45 @@
   height: 70px;
   border-radius: 70%;
 }
-.container-fluid {
+.namecont {
   text-align: center;
 
   height: 80ex;
   width: 100%;
   opacity: 0.6;
   padding-top: 100px;
-  background-image: linear-gradient(#c9f2f1, #a5faf9, #87f8f6, #09ffc0);
+  background-image: linear-gradient(#09ffc0, #c9f2f1, #a5faf9, #87f8f6);
 }
 
-.myname{
-    margin:auto;
-    padding: 10px;
-    
-    font-size: 3em;
-    letter-spacing: 5px;
+.myname {
+  margin: auto;
+  padding: 10px;
+
+  font-size: 3em;
+  letter-spacing: 5px;
+}
+.socialcss {
+  text-align: center;
+  letter-spacing: 3px;
+  
+  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.copyrights {
+  letter-spacing: 2px;
+  text-align: center;
+}
+.copyname {
+  padding: 30px;
+  background-image: linear-gradient(#c9f2f1,#c7f5f5, #ddf9f8,#E3F7F5);
 }
 
 /* @media screen and (min-width:480px){
