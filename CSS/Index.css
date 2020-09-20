@@ -3,17 +3,23 @@ body{
   margin: 0;
   padding: 0;
   height: 100%;
+  background-image: linear-gradient(#000000, #2BD1FF, #a5faf9, #87f8f6,#000000);
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  background-image: linear-gradient(#09ffc0, #c9f2f1, #a5faf9, #87f8f6);
-background-repeat: no-repeat;
-background-size: cover;
-
+}
+.navbar-brand{
+  font-size:35px;
 }
 .imgclass {
-  width: 70px;
-  height: 70px;
+  width: 15em;
+  height: 15em;
+  
   border-radius: 70%;
+  margin-bottom: 10px;
+  transition: 2s;
 }
+
 .namecont {
   overflow: auto;
   text-align: center;
@@ -30,31 +36,28 @@ background-size: cover;
   
   margin: auto;
   padding: 10px;
-  opacity: 0.8;
-  font-size: 3em;
-  letter-spacing: 5px;
+  
+  font-size: 1em;
+  letter-spacing: 2 px;
   transition: 0.1s;
+  color: black;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 600;
 }
-.myname:hover {
-  letter-spacing: 6px;
-  opacity: 1;
-  transition: 2s;
-  text-shadow: 1px 2px  black;
-  
-}
+
 
 .socialcss {
-  text-align: center;
   
+  font-weight:500;
+  transition: 2s;
+  text-align: center;
+  border: 1px black solid;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-
 a {
   text-decoration: none;
-  color: black;
+  color:white;
 }
 a:hover {
   text-decoration: underline;
@@ -62,20 +65,22 @@ a:hover {
  
 }
 .insta:hover{
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 
 }
 .fb:hover{
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 .lk:hover{
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 .git:hover{
-  letter-spacing: 3px;
+  
+  letter-spacing: 2px;
 }
 .contact:hover{
-  letter-spacing: 3px;
+  
+  letter-spacing: 2px;
 }
 .copyrights {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -86,6 +91,7 @@ header {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .copyname {
+  
   overflow: auto;
   height: 11em;
   padding: 30px;
@@ -95,6 +101,7 @@ header {
   color: red;
 }
 .copypara{
+  color: antiquewhite;
   margin: 20px;
 }
 
