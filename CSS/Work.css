@@ -1,39 +1,43 @@
-.bodybg{
-    background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4,#C7CDCD);
-    
-}
 .imgclass{
-    width: 70px;
-    height: 70px;
-    border-radius: 70%;
+    width: 5em;
+    height: 5em;
+    border-radius: 50px;
 }
-
-
-
-.class{
-    background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4,#C7CDCD);
-    opacity: 0.7;
+body{
+    margin: auto;
+    padding: unset;
+    height: 100vh;
+    background-image: linear-gradient(#000000, #2BD1FF, #a5faf9, #87f8f6,#000000);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.btn{
+a{
+    color: white;
+}
+.navbar-brand{
+    font-size: 35px;
+}
+.news   {
+    border-radius: 30px;
+    transition: 2s;
     
-    color: #2F3030 ;
-    opacity: 0.7;
-    background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4);
-    transition: 0.4s;
-    border: 3px #1E1F1F solid;
-    font-weight: bolder;
+    height: 35vh;
 }
-.btn:hover{
-    transition: 1.5s;
+
+.card{
+    opacity: 0.8;
+    border-radius: 30px ;
+    transition: 1s;
+}
+.card:hover{
     opacity: 1;
-    color: black;
-    border: 3px #1E1F1F solid;
-
-    background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4,#C7CDCD);
+    box-shadow: 2px 2px black;
 }
-.card-title{
-    letter-spacing: 1px;
-    
+.ifood{
+    border-radius: 30px;
+}
+.port{
+    border-radius: 30px;
 }
 /* 
 @media screen and (min-width:480px){
