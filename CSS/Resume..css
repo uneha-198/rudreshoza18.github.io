@@ -1,98 +1,28 @@
-.bodybg{
-    background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4,#C7CDCD);
-    
-    
-}
-.imgclass{
-    width: 70px;
-    height: 70px;
-    border-radius: 70%;
-}
-.container{
-    width: 100%;
-    margin-top: 10px;
-}
-.rowres{
-    width: 100%;
-}
-.row{
-
-    /* border: 1px black solid; */
-    
-}
-
-.col-sm{
-    width: 100%;
-    padding: 10px;
+body {
+    margin: 0;
+    padding: 0;
+  
+    background-image: linear-gradient(
+      #000000,
+      #2bd1ff,
+      #a5faf9,
+      #87f8f6,
+      #000000
+    );
+    height: 59em;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .resumeint{
+    overflow: auto;
     text-align: center;
-    
-}
-.resumea{
-    
-    
-    color: black;
-}
-.resumea:hover{
-    color:grey;
-    text-decoration: none;
-}
-.resumebtn{
-    transition: 0.8s;
-    border-radius: 100px 100px 100px 100px;
-    border: 3px #525858  solid;
-    background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4,#C7CDCD);
-    width: 300px;
-    height: 50px;
-    color:#212F3D;
-    
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    opacity: 0.5;
-    letter-spacing: 2.5px;
-    text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 900;
-    padding: 10px;
-}
-.resumebtn:hover{
-    text-transform: uppercase;
-    letter-spacing: 3px;
+  
+    height: 80ex;
+    width: 100%;
     opacity: 1;
-    
-    text-decoration: none;
-    box-shadow: 2px 2px black;
-    color:#212F3D;
-    background-image: linear-gradient(#898C8C,#9DA1A1,#AEB4B4);
-
-    font-weight: 900px;
-
-}
-
-
-.resumeframe{
-    width: 100%;
-    height: 1000px;
-    
-}
-
-/* 
-@media screen and (max-width:480px){
-    .bodybg{
-        background-color: lightgray;
-
-    }
-} */
-
-
-/* @media screen and (min-width:992px){
-
-    .bodybg{
-        background-color: lightgrey;
-    }
-} */
-
-.resumesrc{
-    background-image: url('../Assest/MyModfiedResume.pdf');
-    width: 100%;
-    height: 1000px;
-}
+    padding-top: 100px;
+  }
+  object{
+      width: 70%;
+      height: 40em;
+  }
