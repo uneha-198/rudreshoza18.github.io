@@ -63,8 +63,9 @@ body {
   text-align: center;
 }
 a {
+  font-size: larger;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 a:hover {
   text-decoration: underline;
@@ -72,19 +73,19 @@ a:hover {
 }
 
 .insta:hover {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .fb:hover {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .lk:hover {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .git:hover {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .contact:hover {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .copyrights {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -106,11 +107,11 @@ header {
   color: red;
 }
 .copypara {
-  color: antiquewhite;
+  color: black ;
   margin: 20px;}
 
 .mydet{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /* @media screen and (min-width:480px){

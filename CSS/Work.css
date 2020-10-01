@@ -1,10 +1,27 @@
+@import "https://fonts.googleapis.com/css2?family=Peddana&display=swap";
+
+
+
 body{
+  font-family: 'Peddana', serif;
+
   margin: 0; 
   padding:0;
-  height: 100cm;
+  height: 100vh;
   background-image: linear-gradient(#000000, #2BD1FF, #a5faf9, #87f8f6,#000000);
   background-repeat: no-repeat;  
   background-size: cover;
 
 
+}
+.navbar-brand{
+  font-size: 50px;
+}
+.nav-item{
+  font-size: 24px;
+}
+.imgclass{
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
 }
