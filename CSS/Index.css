@@ -1,20 +1,31 @@
+@import "https://fonts.googleapis.com/css2?family=Peddana&display=swap";
 
-body{
+body {
   margin: 0;
   padding: 0;
-  
-  background-image: linear-gradient(#000000, #2BD1FF, #a5faf9, #87f8f6,#000000);
+
+  background-image: linear-gradient(
+    #000000,
+    #2bd1ff,
+    #a5faf9,
+    #87f8f6,
+    #000000
+  );
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-.navbar-brand{
-  font-size:35px;
+.nav-item{
+  font-size: 20px;
+  font-family: 'Peddana', serif;
+}
+.navbar-brand {
+  font-family: 'Peddana', serif;
+  font-size: 50px;
 }
 .imgclass {
   width: 15em;
   height: 15em;
-  
+
   border-radius: 70%;
   margin-bottom: 10px;
   transition: 2s;
@@ -23,7 +34,7 @@ body{
 .namecont {
   overflow: auto;
   text-align: center;
-  
+
   height: 80ex;
   width: 100%;
   opacity: 1;
@@ -31,80 +42,77 @@ body{
   /* background-image: linear-gradient(#09ffc0, #c9f2f1, #a5faf9, #87f8f6); */
 }
 
-.row{
-  border: black 2px solid;
+.row {
+  /* border: black 2px solid; */
 }
 .myname {
-  
   margin: auto;
   padding: 10px;
-  
+
   font-size: 1em;
   letter-spacing: 2 px;
   transition: 0.1s;
   color: black;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Peddana", serif;
   font-weight: 600;
 }
 
-
 .socialcss {
-  
-  font-weight:500;
+  font-family: "Peddana", serif;
+  font-size: 20px;
+  font-weight: 500;
   transition: 2s;
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 a:hover {
   text-decoration: underline;
   color: black;
- 
 }
 
-.insta:hover{
-  letter-spacing: 2px;
-
-}
-.fb:hover{
+.insta:hover {
   letter-spacing: 2px;
 }
-.lk:hover{
+.fb:hover {
   letter-spacing: 2px;
 }
-.git:hover{
-  
+.lk:hover {
   letter-spacing: 2px;
 }
-.contact:hover{
-  
+.git:hover {
+  letter-spacing: 2px;
+}
+.contact:hover {
   letter-spacing: 2px;
 }
 .copyrights {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 2px;
   text-align: center;
 }
 header {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .copyname {
-  
-  overflow: auto;
+  margin: 1px;
   height: 11em;
   padding: 30px;
   /* background-image: linear-gradient(#87f8f6, #87f8f6, #87f8f6); */
 }
-.type{
+.type {
   color: red;
 }
-.copypara{
+.copypara {
   color: antiquewhite;
-  margin: 20px;
+  margin: 20px;}
+
+.mydet{
+  font-size: 20px;
 }
 
 /* @media screen and (min-width:480px){
